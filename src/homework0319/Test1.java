@@ -10,7 +10,7 @@ public class Test1 {
 		System.out.print("첫번째 숫자를 입력하시오");
 		int num1 = sc.nextInt();
 		System.out.print("두번째 숫자를 입력하시오");
-		int num2 = sc.nextInt();
+		int num2 = sc.nextInt();//작은 수가 들어감
 		
 		if(num1 > num2) System.out.println("큰 수는 " + num1 + "이며, 작은 수는 " + num2 + "입니다.");
 		else			System.out.println("큰 수는 " + num2 + "이며, 작은 수는 " + num1 + "입니다.");
